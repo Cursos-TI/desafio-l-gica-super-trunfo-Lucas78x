@@ -70,12 +70,12 @@ int main() {
     printf("Digite o número de pontos turísticos: ");
     scanf(" %d", &pontosTuristicos2);  // Consumir o '\n' deixado pelo scanf
 
-    // Cálculo da densidade populacional e PIB per capita para ambas as cartas
+    // Cálculo da densidade populacional e PIB capital para ambas as cartas
     float densidadePopulacional1 = populacao1 / area1;
-    float pibPerCapita1 = pib1 / populacao1;
+    float pibCapital1 = pib1 / populacao1;
 
     float densidadePopulacional2 = populacao2 / area2;
-    float pibPerCapita2 = pib2 / populacao2;
+    float pibCapital2 = pib2 / populacao2;
 
     // Exibição das informações da primeira carta
     printf("\nCarta 1:\n");
@@ -87,7 +87,7 @@ int main() {
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
     printf("Densidade Populacional: %.2f habitantes/km²\n", densidadePopulacional1);
-    printf("PIB per Capita: %.2f reais\n", pibPerCapita1);
+    printf("PIB per Capita: %.2f reais\n", pibCapital1);
 
     // Exibição das informações da segunda carta
     printf("\nCarta 2:\n");
@@ -99,7 +99,7 @@ int main() {
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
     printf("Densidade Populacional: %.2f habitantes/km²\n", densidadePopulacional2);
-    printf("PIB per Capita: %.2f reais\n", pibPerCapita2);
+    printf("PIB per Capita: %.2f reais\n", pibCapital2);
 
     // Comparação do atributo escolhido: População
     printf("\nComparação de cartas (Atributo: População):\n");
