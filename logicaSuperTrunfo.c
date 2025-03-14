@@ -87,7 +87,7 @@ int main() {
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
     printf("Densidade Populacional: %.2f habitantes/km²\n", densidadePopulacional1);
-    printf("PIB per Capita: %.2f reais\n", pibCapital1);
+    printf("PIB por Capital: %.2f reais\n", pibCapital1);
 
     // Exibição das informações da segunda carta
     printf("\nCarta 2:\n");
@@ -99,7 +99,7 @@ int main() {
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
     printf("Densidade Populacional: %.2f habitantes/km²\n", densidadePopulacional2);
-    printf("PIB per Capita: %.2f reais\n", pibCapital2);
+    printf("PIB por Capital: %.2f reais\n", pibCapital2);
 
     // Comparação do atributo escolhido: População
     printf("\nComparação de cartas (Atributo: População):\n");
